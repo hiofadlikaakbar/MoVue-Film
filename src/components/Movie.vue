@@ -15,7 +15,7 @@
               type="text"
               v-model="searchQuery"
               class="text-white bg-transparent w-full focus:outline-none"
-              placeholder="Search movie.."
+              placeholder="Search movie..."
               @keyup.enter="searchMovie"
               id="search"
             />
@@ -30,12 +30,12 @@
       <h1
         class="text-3xl md:text-3xl lg:text-4xl 2xl:text-5xl mb-6 font-semibold text-[#F8F8FF]"
       >
-        Now Streaming!
+        Streaming Now!
       </h1>
       <p
         class="text-base md:text-lg lg:text-xl 2xl:text-2xl text-[#F8F8FF] mb-10"
       >
-        Discover and Delight in Your Favorite Movies on MoVue!
+        Discover and enjoy your favorite movies on MoVue!
       </p>
       <div class="flex gap-3 justify-center xs:gap-5 lg:gap-7">
         <a
